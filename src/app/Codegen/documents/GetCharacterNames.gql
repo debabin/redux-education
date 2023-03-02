@@ -1,0 +1,7 @@
+query GetCharacterNames {
+  characters {
+    results {
+      name
+    }
+  }
+}

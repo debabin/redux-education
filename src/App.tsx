@@ -8,6 +8,11 @@ import { TwoBlocksContextApp } from "./src/TwoBlockContext /TwoBlocksContext";
 import { TwoBlocksApp } from "./src/TwoBlocks/TwoBlocks";
 import { OldReduxApp } from "./src/OldRedux/OldRedux";
 import { ToolkitReduxApp } from "./src/ToolkitRedux/ToolkitRedux";
+import { ReduxThunkApp } from "./src/ReduxThunk/ReduxThunk";
+import { OldReduxThunkApp } from "./src/OldReduxThunk/OldReduxThunk";
+import { ReduxThunkAdapterApp } from "./src/ReduxThunkAdapter/ReduxThunkAdapter";
+import { ReduxSagaApp } from "./src/ReduxSaga/ReduxSaga";
+import { ReduxRTKQueryApp } from "./src/ReduxRTKQuery/ReduxRTKQuery";
 
 function App() {
   return (
@@ -18,7 +23,13 @@ function App() {
       {/* <ContextProblemApp /> */}
       {/* <ReduxCardsApp /> */}
       {/* <OldReduxApp /> */}
-      <ToolkitReduxApp />
+      {/* <ToolkitReduxApp /> */}
+
+      {/* <OldReduxThunkApp /> */}
+      {/* <ReduxThunkApp /> */}
+      {/* <ReduxThunkAdapterApp /> */}
+      {/* <ReduxSagaApp /> */}
+      <ReduxRTKQueryApp />
     </div>
   );
 }
